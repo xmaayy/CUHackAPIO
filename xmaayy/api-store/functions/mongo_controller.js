@@ -39,7 +39,7 @@ module.exports = (params, context, callback) => {
     });
   
   } else if (param[0] == "insert") {
-    if (param.length < 7) throw Error("Incorrect Arguments for Insert Operation")
+    if (param.length < 8) throw Error("Incorrect Arguments for Insert Operation")
     MongoClient.connect(uri, (err, db) => {
       if (err) throw err;
       var myobj = 
@@ -48,7 +48,8 @@ module.exports = (params, context, callback) => {
         Description: param[3],
         PPC: param[4],
         imgUrl: param[5],
-        exampleCall: param[6]
+        type:param[6],
+        exampleCall: param[7]
       };
       var SpecDB = db.db("api-backend");
       SpecDB.collection(param[1]).insertOne(myobj, (err, res) => {

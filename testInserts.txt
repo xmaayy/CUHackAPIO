@@ -1,0 +1,9 @@
+insert|api_listings|StdLib|Standard Library is the fastest way to build, ship, scale and integrate with backend logic. See how our serverless platform is changing software development — from internal tools to external developer APIs. |0.0001|https://stdlib.com/static/images/stdlib-logo-wordmark-128.png|development|You're doing it now!
+
+insert|api_listings|martello|Founded in 2009, Martello Technologies is a private company headquartered in Ottawa, Canada with staff in Canada, the United States and France. Martello develops fault & performance management solutions for unified communications (UC) systems, with a specialization in Mitel UC solutions.|0|http://martellotech.com/wp-content/themes/martello/images/logo.png|data|api_type - Martello
+
+insert|api_listings|ChangeJar|ChangeJar eliminates the transaction fees associated with credit cards, debit terminals and third party payment processors. |0.0001|https://static.wixstatic.com/media/621e2b_6a62796b3db34577b633594209a523dd~mv2.png/v1/fill/w_265,h_71,al_c,usm_0.66_1.00_0.01/621e2b_6a62796b3db34577b633594209a523dd~mv2.png|payment|api_type - changejar
+
+insert|api_listings|indico|Indico is a venture-backed startup making the application of machine learning practical in the enterprise. Our focus is on helping to automate tedious back-office tasks, improving the efficiency of labor-intensive document-based workflows, and extracting valuable insights from your unstructured content, including text and images. |0.0001|https://indico.wpengine.com/wp-content/themes/indico/images/logo.png|development|api_type - indico
+
+insert|api_listings|Wolfram Language|The Wolfram Language is a general multi-paradigm programming language developed by Wolfram Research and is the programming language of the mathematical symbolic computation program Mathematica and the Wolfram Programming Cloud.|1000|http://wpmedia.wolfram.com/uploads/sites/10/2016/06/wolfram-language-text-logo.png|development|api_type - wolfram

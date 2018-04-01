@@ -24,7 +24,7 @@
   position: center;
   height: 90px;
   display: block;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
