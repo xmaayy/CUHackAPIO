@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+
+}
+
+.CxInfo {
+    float:right;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+    display:inline-block;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+.App-logo {
+  position: center;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Api_Company_logo {
+  float:left;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url("bg.jfif");
+  background-size:cover;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  align-content:center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+div.Api_Description {
+    position: relative;
+    max-height:none;
+    min-height: 200px;
+    max-width:5000px;
+    min-height:15%;
+    padding-left: 100px;
+    padding-right: 110px;
+    
+}
