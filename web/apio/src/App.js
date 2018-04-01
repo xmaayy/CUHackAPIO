@@ -10,9 +10,15 @@ class App extends Component {
     super(props);
     this.state = {
       show_results : false,
-      bodydata : []
+      bodydata : [],
+      inputValue:''
     }
     this.handleClick = this.handleClick.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange = (e) => {
+    this.setState({inputValue: e.target.value});
+    console.log(this.state.inputValue)
   }
 
   handleClick(event){
@@ -22,7 +28,7 @@ class App extends Component {
 
     var mongostring = "findall|api_listings"
     request.post({url:'http://localhost:8170/xmaayy/api-store/', 
-    form: {api_type:'search',data:mongostring}},
+    form: {api_type:'search', data:mongostring}},
     (err,httpResponse,body) => {
         this.setState({bodydata:JSON.parse(body)})
         console.log(Object.prototype.toString.call(this.state.bodydata))
@@ -30,20 +36,19 @@ class App extends Component {
   }
 
   render() {
-    var results = this.state.show_results ? null : null;
       return (
       <div className="App">
           <div className="CxInfo">
               <p><img src={profile} alt="Customer Profile Picture" height="45" width="45"></img>
-                  <b> Welcome:</b> %CUSTOMER% <b>! Credits:</b> $0.00</p>
+                  <b> Welcome:</b> Kris <b>! Credits:</b> $0.00</p>
           </div>
         <header className="App-header">
           <h1 className="App-title"></h1>
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <p className="Api_Search">Search for an API</p>
-        <input type="search" name="googlesearch"/>
-        <button onClick={this.handleClick} >Search</button>
+        <input onChange={this.handlechange} type="search" name="googlesearch"/>
+        <button onClick={this.handleClick}>Search</button>
         <div>
           { this.state.bodydata.map(
             listing => <ApiItem cost={listing.PPC} 

@@ -23,7 +23,7 @@ class ApiItem extends Component {
             <p align="left"><b>Description:</b>{this.props.desc}</p>
             </div>
             <div class="rating">
-            <span>Rating:</span><span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+            <span>Rating:</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
             </div>
             <div>
             </div>
