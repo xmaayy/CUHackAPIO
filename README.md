@@ -1,2 +1,2 @@
 #Mockup
-![Mockup](mockup.png?raw=true "Title")
+![Mockup](mockup.png)
