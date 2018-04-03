@@ -1,6 +1,5 @@
 ﻿// JavaScript source code
 import React, { Component } from 'react';
-import logo from './api.png';
 import request from 'request';
 
 class ApiItem extends Component {
