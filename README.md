@@ -1,2 +1,4 @@
 #Mockup
-![Mockup](mockup.png?raw=true "Title")
+<p align="center">
+  <img src="Mockup.png" width="1024"/>
+</p>
